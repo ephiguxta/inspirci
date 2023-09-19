@@ -35,8 +35,6 @@ get_bin() {
 		if wget -q "$url_path" --show-progress -O "$filename"; then
 			return 0
 		fi
-
-		return 1
 	fi
 	
 	return 1
